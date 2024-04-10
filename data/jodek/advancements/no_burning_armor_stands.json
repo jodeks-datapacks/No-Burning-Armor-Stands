@@ -1,0 +1,18 @@
+{
+  "display": {
+    "icon": {
+        "item": "minecraft:armor_stand"
+    },
+      "title": "No Burning Armor Stands",
+      "description": "Disables that armor stands get destroyed when on fire",
+      "frame": "task",
+      "show_toast": false,
+      "announce_to_chat": false
+  },
+  "parent": "jodek:root",
+  "criteria": {
+      "tick": {
+          "trigger": "minecraft:tick"
+      }
+  }
+}
